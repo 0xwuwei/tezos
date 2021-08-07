@@ -41,7 +41,7 @@ def test():
     scenario += bento
     
     
-    scenario += corehupeng.mint(address = corehupeng.address, 
+    scenario += bento.mint(address = corehupeng.address, 
                             amount = 1,
                             metadata= Bento.make_metadata(
                                 decimals = 0,
